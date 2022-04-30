@@ -1,0 +1,137 @@
+
+
+/*
+Template Name: ImmiEx - Immigration and Visa Consulting Website Template
+Theme URL: https://themeforest.net/user/Jthemes
+Description: ImmiEx - Immigration and Visa Consulting Website Template
+Author: Jthemes
+Author URL: https://themeforest.net/user/Jthemes
+Version: 1.0.0
+Tags: Responsive, HTML5 template, Jthemes, One Page, Landing, Business, Coaching, Consulting, Creative, Immigration, Lawyer, Visa
+*/
+
+
+
+
+/* ==========================================================================
+01. GENERAL & BASIC STYLES
+=========================================================================== */
+
+html {
+-webkit-font-smoothing: antialiased;
+font-size: 16px;
+} 
+
+body {
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #333;
+font-weight: 300;
+}
+
+/*------------------------------------------------------------------*/
+/*  IE10 in Windows 8 and Windows Phone 8 Bug fix
+/*-----------------------------------------------------------------*/
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/*------------------------------------------*/
+/*  PAGE CONTENT
+/*------------------------------------------*/
+
+#page { overflow: hidden; }
+
+
+.form-style-3{
+max-width: 1650px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-3 label{
+display:block;
+margin-bottom: 10px;
+}
+.form-style-3 label > span{
+float: left;
+width: 100px;
+color: #030444;
+font-weight: bold;
+font-size: 13px;
+text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+.form-style-3 fieldset{
+border-radius: 20px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+margin: 0px 0px 10px 0px;
+border: 1px solid #d9d2ff;
+padding: 20px;
+background: #f4f4ff;
+box-shadow: inset 0px 0px 15px #e5e5ff;
+-moz-box-shadow: inset 0px 0px 15px #e5e5ff;
+-webkit-box-shadow: inset 0px 0px 15px #e8e5ff;
+}
+.form-style-3 fieldset legend{
+color: #b1a0ff;
+border-top: 1px solid #d2d3ff;
+border-left: 1px solid #d9d2ff;
+border-right: 1px solid #d3d2ff;
+border-radius: 5px 5px 0px 0px;
+-webkit-border-radius: 5px 5px 0px 0px;
+-moz-border-radius: 5px 5px 0px 0px;
+background: #f5f4ff;
+padding: 0px 8px 3px 8px;
+box-shadow: -0px -1px 2px #f1f1f1;
+-moz-box-shadow:-0px -1px 2px #f1f1f1;
+-webkit-box-shadow:-0px -1px 2px #f1f1f1;
+font-weight: normal;
+font-size: 12px;
+}
+.form-style-3 textarea{
+width:250px;
+height:100px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border: 1px solid #cbc2ff;
+outline: none;
+color: #8572f0;
+padding: 5px 8px 5px 8px;
+box-shadow: inset 1px 1px 4px #d8d5ff;
+-moz-box-shadow: inset 1px 1px 4px #dbd5ff;
+-webkit-box-shadow: inset 1px 1px 4px #d9d5ff;
+background: #f1efff;
+width:50%;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+background: #4d3beb;
+border: 1px solid #4c4ac9;
+padding: 5px 15px 5px 15px;
+color: #cccbff;
+box-shadow: inset -1px -1px 3px #6279ff;
+-moz-box-shadow: inset -1px -1px 3px #7962ff;
+-webkit-box-shadow: inset -1px -1px 3px #7962ff;
+border-radius: 3px;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;	
+font-weight: bold;
+}
+.required{
+color:red;
+font-weight:normal;
+}
